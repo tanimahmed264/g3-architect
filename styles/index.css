@@ -1,0 +1,423 @@
+/* header styles 
+================*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Work Sans';
+	overflow-x: hidden;
+}
+
+.container {
+	padding: 0px 50px;
+}
+
+.section-separator {
+	margin-top: 100px;
+}
+
+.text-color {
+	color: #727272;
+}
+
+.heading-color {
+	color: #131313;
+}
+
+.half-width {
+	width: 50%;
+}
+
+/* Header Css */
+header {
+	background: rgba(255, 144, 14, 0.1);
+}
+
+.header-btn {
+	display: flex;
+	justify-content: center;
+	margin: 60px 0px 30px 0px;
+}
+
+
+main,
+header {
+	margin: 0 auto;
+}
+
+/* button
+==========*/
+.btn {
+	background: #ff900e;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+
+/* navigation
+============== */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+
+ul {
+	display: flex;
+	color: #424242;
+}
+
+ul li {
+	list-style: none;
+	padding-left: 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	background-color: antiquewhite;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+ul li a:hover {
+	background-color: burlywood;
+}
+
+/* banner
+========== */
+
+.banner-info h1 {
+	font-weight: 700;
+	font-size: 35px;
+	text-align: center;
+	color: #131313;
+	margin-bottom: 10px;
+	/* width: 100%; */
+}
+
+.banner-info p {
+	width: 100%;
+	font-weight: 700;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	color: #727272;
+	/* width: 100%; */
+}
+
+.btn a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.banner img {
+	width: 100%;
+	padding: 30px;
+}
+
+/* Feature */
+
+.features-content-main {
+	display: flex;
+	align-items: center;
+	gap: 100px
+}
+
+
+.feature-gallery {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.feature-gallery div {
+	width: 100%;
+}
+
+.feature-gallery div img {
+	width: 100%;
+}
+
+.feature-info p {
+	margin: 20px 0px;
+	line-height: 1.4;
+}
+
+.love-enjoy-img {
+	position: relative;
+}
+
+.experience {
+	position: absolute;
+	bottom: -5%;
+	left: -10%;
+	background: #FF900E;
+	border-radius: 8px;
+	padding: 30px;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+}
+
+.experience:hover {
+	bottom: 0;
+	left: 0;
+
+}
+
+.experience h2 {
+	font-size: 36px;
+}
+
+
+/* Features Content */
+.feature-container-main {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.feature-content h1 {
+	border-left: 5px solid #ff900e;
+	padding: 5px 15px;
+}
+
+.feature-content p {
+	margin: 30px 0px;
+}
+
+
+article {
+	padding: 30px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+article p {
+	margin-top: 10px;
+}
+
+.love-enjoy-img img {
+	width: 100%;
+}
+
+/* Some Facts Css */
+.some-facts-content p {
+	margin: 10px 0px;
+}
+
+.award-content {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 50px;
+	margin-top: 50px;
+	padding: 0px 30px;
+}
+
+.award-info {
+	border: 1px solid #FF900E;
+	border-radius: 8px;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.award-info:hover {
+	transform: rotate(360deg);
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+h4 {
+	color: #424242;
+}
+
+/* Gypsum Design Css */
+.gypsum-design-content {
+	text-align: center;
+}
+
+.gypsum-design-content p {
+	margin: 20px 0px 20px 0px;
+}
+
+.design-gallery {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 50px;
+}
+
+
+
+.gallery-img img {
+	width: 100%;
+}
+
+/* Sponsors Css */
+.sponsors-info {
+	text-align: center;
+}
+
+.sponsors-info h2 {
+	color: #131313;
+}
+
+.sponsors-info p {
+	color: #727272;
+	margin-top: 20px;
+}
+
+
+
+.sponsor-logo {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+}
+
+/* Footer Css */
+
+
+
+.footer-content {
+	background: #FFF4E7;
+	padding: 20px;
+}
+
+.footer-heading {
+	font-size: 20px;
+	text-align: center;
+	color: #424242;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		padding: 0px 20px;
+	}
+
+	.section-separator {
+		margin-top: 50px;
+	}
+
+	.half-width {
+		width: 100%;
+	}
+
+	nav {
+		flex-direction: column;
+		gap: 30px;
+		align-items: center;
+	}
+
+	ul {
+		flex-direction: column;
+		gap: 30px;
+		align-items: center;
+	}
+
+	/* banner
+	========== */
+
+	.banner-info h1 {
+		font-size: 24px;
+	}
+
+	/* Feature */
+
+	.features-content-main {
+		flex-direction: column-reverse;
+		align-items: center;
+		gap: 50px
+	}
+
+	.feature-info h1 {
+		font-size: 32px !important;
+	}
+
+	.feature-gallery {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 20px;
+	}
+
+
+
+
+	/* Features Content */
+	.feature-container-main {
+		flex-direction: column-reverse;
+		align-items: center;
+		gap: 30px;
+	}
+
+
+
+
+	article {
+		padding: 15px;
+	}
+
+	/* Some Facts Css */
+
+	.award-content {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 30px;
+		margin-top: 30px;
+		padding: 0px 15px;
+	}
+
+
+
+	/* Gypsum Design Css */
+	.gypsum-design-content {
+		text-align: center;
+	}
+
+
+	.design-gallery {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 20px;
+	}
+
+
+
+
+	/* Sponsors Css */
+
+
+
+
+
+	.sponsor-logo {
+		display: flex;
+		gap: 20px;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 30px;
+	}
+
+	/* Footer Css */
+
+
+
+	.footer-content p{
+		font-size: 10px;
+	}
+}
